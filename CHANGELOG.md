@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.5](https://github.com/HospitalRun/hospitalrun-server/compare/v2.0.0-alpha.4...v2.0.0-alpha.5) (2020-11-07)
+
+### CI
+
+* **nodejs:** move from node v12 lts to v14 lts
+
+## [2.0.0-alpha.4](https://github.com/HospitalRun/hospitalrun-server/compare/v2.0.0-alpha.3...v2.0.0-alpha.4) (2020-09-28)
+
+## [2.0.0-alpha.3](https://github.com/HospitalRun/hospitalrun-server/compare/v2.0.0-alpha.2...v2.0.0-alpha.3) (2020-09-01)
+
+
+### Features
+
+* add docker compose ([237c1a9](https://github.com/HospitalRun/hospitalrun-server/commit/237c1a99a125fcde565f8e31c5d6186308e9257b))
+
 ## 2.0.0-alpha.2 (2020-05-17)
 
 

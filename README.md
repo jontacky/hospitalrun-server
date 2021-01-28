@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-developing-brightgree) [![Release](https://img.shields.io/github/release/HospitalRun/hospitalrun-server.svg)](https://github.com/HospitalRun/hospitalrun-server/releases) [![Version](https://img.shields.io/github/package-json/v/hospitalrun/hospitalrun-server)](https://github.com/HospitalRun/hospitalrun-server/releases) [![GitHub CI](https://github.com/HospitalRun/server/workflows/GitHub%20CI/badge.svg)](https://github.com/HospitalRun/server/actions) [![Coverage Status](https://coveralls.io/repos/github/HospitalRun/hospitalrun-server/badge.svg?branch=master)](https://coveralls.io/github/HospitalRun/hospitalrun-server?branch=master) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/HospitalRun/hospitalrun-server.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HospitalRun/hospitalrun-server/context:javascript) [![Documentation Status](https://readthedocs.org/projects/hospitalrun-server/badge/?version=latest)](https://hospitalrun-server.readthedocs.io)
+![Status](https://img.shields.io/badge/Status-developing-brightgree) [![Release](https://img.shields.io/github/release/HospitalRun/hospitalrun-server.svg)](https://github.com/HospitalRun/hospitalrun-server/releases) [![Version](https://img.shields.io/github/package-json/v/hospitalrun/hospitalrun-server)](https://github.com/HospitalRun/hospitalrun-server/releases) [![GitHub CI](https://github.com/HospitalRun/server/workflows/GitHub%20CI/badge.svg)](https://github.com/HospitalRun/server/actions) [![Coverage Status](https://coveralls.io/repos/github/HospitalRun/hospitalrun-server/badge.svg?branch=master)](https://coveralls.io/github/HospitalRun/hospitalrun-server?branch=master) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/HospitalRun/hospitalrun-server.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HospitalRun/hospitalrun-server/context:javascript) ![Code scanning](https://github.com/HospitalRun/hospitalrun-server/workflows/Code%20scanning/badge.svg?branch=master) [![Documentation Status](https://readthedocs.org/projects/hospitalrun-server/badge/?version=latest)](https://hospitalrun-server.readthedocs.io)
  [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHospitalRun%2Fhospitalrun-server.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHospitalRun%2Fhospitalrun-server?ref=badge_shield) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![dependabot](https://api.dependabot.com/badges/status?host=github&repo=HospitalRun/hospitalrun-server) [![Slack](https://hospitalrun-slack.herokuapp.com/badge.svg)](https://hospitalrun-slack.herokuapp.com)
 
 </div>
@@ -21,7 +21,8 @@ Contributions are always welcome. Before contributing please read our [contribut
 2. Clone it to your local machine
 3. Navigate to the cloned folder: `cd hospitalrun-server`
 4. Install the dependencies: `npm install`
-5. Run `npm run dev` to build and watch for code changes:
+5. Check that [env variables](https://github.com/HospitalRun/hospitalrun-server#environment) are set correctly 
+6. Run `npm run dev` to build and watch for code changes:
    - a development database will start on http://localhost:5984
    - you can access its Admin interface on http://localhost:5984/_utils, `username: dev` and `password: dev`
 
@@ -52,56 +53,6 @@ Read more at <a href="https://github.com/HospitalRun/hospitalrun-server/blob/mas
 
 ## Services
 Read more at <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/docs/services.md"><code><b>HospitalRun Services</b></code></a>.
-
-<hr />
-
-# Behind HospitalRun
-
-## Hosted by
-
-[<img src="https://github.com/openjs-foundation/cross-project-council/blob/master/logos/openjsf-color.png?raw=true" width="120px;"/>](https://openjsf.org/projects/#atlarge)
-
-## Sponsors
-
-[![Sponsors](https://opencollective.com/hospitalrun/sponsors.svg?width=890)](https://opencollective.com/hospitalrun/contribute/sponsors-336/checkout)
-
-## Backers
-
-[![Backers](https://opencollective.com/hospitalrun/backers.svg?width=890)](https://opencollective.com/hospitalrun/contribute/backers-335/checkout)
-
-## Lead Maintainer
-
-[<img src="https://avatars2.githubusercontent.com/u/1620916?s=460&v=4" width="100px;"/><br /><sub><b>Maksim Sinik</b></sub>](https://github.com/fox1t)<br />
-
-## [Core Maintainers](https://github.com/orgs/HospitalRun/teams/core-maintainers)
-
-<!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/18731800?s=460&v=4" width="100px;"/><br /><sub><b>Jack Meyer</b></sub>](https://github.com/jackcmeyer) | [<img src="https://avatars0.githubusercontent.com/u/6388707?s=460&v=4" width="100px;"/><br /><sub><b>Matteo Vivona</b></sub>](https://github.com/tehKapa) |
-|---|---|
-
-## [Core Contributors](https://github.com/orgs/HospitalRun/teams/core-contributor)
-
-<!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/25089405?s=460&v=4" width="100px;"/><br /><sub><b>Stefano Casasola</b></sub>](https://github.com/irvelervel) |  [<img src="https://avatars2.githubusercontent.com/u/8810755?s=460&u=495b69e528066f88944d8ce487ce39afe01b9ccb&v=4" width="100px;"/><br /><sub><b>Kumiko Kashii</b></sub>](https://github.com/kumikokashii) | [<img src="https://avatars3.githubusercontent.com/u/603924?s=460&v=4" width="100px;"/><br /><sub><b>Grace Lau</b></sub>](https://github.com/lauggh) | [<img src="https://avatars2.githubusercontent.com/u/26657904?s=460&u=d960bf3d95ae0c9bb858f1f069fff03e51254ddb&v=4" width="100px;"/><br /><sub><b>Stefano Miceli</b></sub>](https://github.com/StefanoMiC) |
-|---|---|---|---|
-
-## Medical Supervisor
-
-[<img src="https://avatars2.githubusercontent.com/u/24660474?s=460&v=4" width="100px;"/><br /><sub><b>M.D. Daniele Piccolo</b></sub>](https://it.linkedin.com/in/danielepiccolo)<br />
-
-## Past Contributors
-
-[<img src="https://avatars2.githubusercontent.com/u/8914893?s=460&v=4" width="100px;"/><br /><sub><b>Michael Daly</b></sub>](https://github.com/MichaelDalyDev)<br />
-
-## Contributors
-
-[![Contributors](https://opencollective.com/hospitalrun/contributors.svg?width=960&button=false)](https://github.com/HospitalRun/hospitalrun-frontend/graphs/contributors)
-
-## Founders
-
-<!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/609052?s=460&v=4" width="100px;"/><br /><sub><b>John Kleinschmidtr</b></sub>](https://github.com/jkleinsc) | [<img src="https://avatars0.githubusercontent.com/u/929261?s=400&v=4" width="100px;"/><br /><sub><b>Joel Worrall</b></sub>](https://github.com/tangollama)  | [<img src="https://avatars0.githubusercontent.com/u/1319791?s=460&v=4" width="100px;"/><br /><sub><b>Joel Glovier</b></sub>](https://github.com/jglovier)  |
-|---|---|---|
 
 # License
 
